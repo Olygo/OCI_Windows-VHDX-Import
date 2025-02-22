@@ -1,5 +1,14 @@
 # Hyper-V Windows VM Migration to OCI 
 
+The method outlined below allows to create four distinct types of OCI VMs with varying configurations:
+
+-	Emulated Launch mode with BIOS *(From a Hyper-V Gen1 VM)*
+-	Paravirtualized Launch mode with BIOS *(From a Hyper-V Gen1 VM)*
+-	Emulated Launch mode with UEFI  *(From a Hyper-V Gen2 VM)*
+-	Paravirtualized Launch mode with UEFI *(From a Hyper-V Gen2 VM)*
+
+This approach provides flexibility in selecting different launch modes and firmware configurations, offering a comprehensive solution for diverse virtual machine setups.
+
 
 ## VM Requirements
 
